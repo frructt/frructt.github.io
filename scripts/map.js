@@ -32,10 +32,17 @@ function init() {
 	});
 
 	var litera = new ymaps.Placemark([51.66433407, 39.20528150], {
-	    balloonContentHeader: '<span style="color: black; font-size: 19pt">Литера Б</span>',
-	    balloonContentBody: '<a href="https://vk.com/event161911454" target="_blank" style="text-decoration: underline; color: red; font-weight: 600; font-size: 12pt">Записаться</a>',
+	    balloonContentHeader: '<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 800">Литера Б</span>',
+	    // balloonContentBody: '<p>Открытый микрофон по <span>понедельникам в 19:00</span></p>',
+	    balloonContentBody: `<p><a href="https://vk.com/event161911454" target="_blank" style="text-decoration: underline; color: #d61e1e; font-weight: 700; font-size: 12pt">Группа в VK</a>
+	    						<br>
+	    						<br>
+	    						<span style="font-size: 12pt">Открытый Микрофон</span>
+	    						<br>
+	    						<span style="font-size: 12pt">по понедельникам в 19:00</span></p>`,
 	    balloonContentFooter: '',
-	    balloonContentFooter: 'Театральная улица, 36',
+	    balloonContentFooter: `
+	    						Театральная улица, 36`,
 	    hintContent: 'Литера Б - Театральная улица, 36'
 	}, {
 		preset: 'islands#redDotIcon'
@@ -62,8 +69,13 @@ function init() {
 	});
 
 	var setka = new ymaps.Placemark([51.667529, 39.186812], {
-	    balloonContentHeader: '<span style="color: black; font-size: 19pt">SETKA BAR</span>',
-	    balloonContentBody: '<a href="https://vk.com/event185470283" target="_blank" style="text-decoration: underline; color: red; font-weight: 600; font-size: 12pt">Записаться</a>',
+	    balloonContentHeader: '<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 800">SETKA BAR</span>',
+	    balloonContentBody: `<p><a href="https://vk.com/event161911454" target="_blank" style="text-decoration: underline; color: #d61e1e; font-weight: 700; font-size: 12pt">Группа в VK</a>
+	    						<br>
+	    						<br>
+	    						<span style="font-size: 12pt">Открытый Микрофон</span>
+	    						<br>
+	    						<span style="font-size: 12pt">по четвергам в 20:00</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: 'Революции 1905 года, 31Г',
 	    hintContent: 'SETKA BAR - Революции 1905 года, 31Г'
