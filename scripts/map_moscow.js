@@ -295,7 +295,7 @@ function init() {
 
 	var mint_phili = new ymaps.Placemark([55.745296, 37.508290], {
 	    balloonContentHeader: `<link rel="stylesheet" href="styles/map_style.css">
-	    						<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Мята Lounge Фили</span>`,
+	    						<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Мята Lounge<br>Фили</span>`,
 	    // balloonContentBody: '<p>Открытый микрофон по <span>понедельникам в 19:00</span></p>',
 	    balloonContentBody: `<p><a href="https://vk.com/to.kromeshutok" target="_blank">Группа в VK</a>
 	    						
