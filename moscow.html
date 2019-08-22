@@ -25,13 +25,13 @@
 			<div id="app">
 				<nav>
 					<transition name="fade" mode="out-in">
-						<p class="menu" v-if="!show" @click="show = !show" key = "menu">Воронеж</p>
-						<p class="clear" v-else @click="show = !show" key="clear">Воронеж</p>
+						<p class="menu" v-if="!show" @click="show = !show" key = "menu">Москва</p>
+						<p class="clear" v-else @click="show = !show" key="clear">Москва</p>
 					</transition>
 					<transition name="fade">
 						<ul v-if="show">
 							<!-- <li class="current"><a href="index.html">Воронеж</a></li> -->
-							<li><a href="moscow.html">Москва</a></li>
+							<li><a href="index.html">Воронеж</a></li>
 							<hr width="80%" align="center" color="#22200c">
 							<li><a href="in_progress.html">Петербург</a></li>
 						</ul>
@@ -67,7 +67,7 @@
 	</footer>
 
 	<script src="scripts/script.js"></script>
-	<script src="scripts/map.js"></script>
+	<script src="scripts/map_moscow.js"></script>
 
 </body>
 </html>

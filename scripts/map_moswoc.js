@@ -2,7 +2,7 @@ ymaps.ready(init);
 
 function init() {
 	var myMap = new ymaps.Map("map", {
-		center: [51.66765298, 39.20501223], // коор-ты центра карты "широта, долгота"
+		center: [55.755814, 37.617635], // коор-ты центра карты "широта, долгота"
 		zoom: 14, // уровень масштабирования [0..19]
 	});
 
@@ -32,19 +32,18 @@ function init() {
 	});
 
 	var litera = new ymaps.Placemark([51.66433407, 39.20528150], {
-	    balloonContentHeader: `<link rel="stylesheet" href="styles/map_style.css">
-	    						<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Литера Б</span>`,
+	    balloonContentHeader: '<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 800">Литера Б</span>',
 	    // balloonContentBody: '<p>Открытый микрофон по <span>понедельникам в 19:00</span></p>',
-	    balloonContentBody: `<p><a href="https://vk.com/event161911454" target="_blank"">Группа в VK</a>
-	    						
+	    balloonContentBody: `<p><a href="https://vk.com/event161911454" target="_blank" style="text-decoration: underline; color: #d61e1e; font-weight: 700; font-size: 12pt">Группа в VK</a>
 	    						<br>
-	    						<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
+	    						<br>
+	    						<span style="font-size: 12pt">Открытый Микрофон</span>
 	    						<br>
 	    						<span style="font-size: 12pt">по понедельникам в 19:00</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Театральная улица, 36`,
-	    hintContent: '<span style="font-weight: 600">Литера Б</span> - Театральная улица, 36'
+	    hintContent: 'Литера Б - Театральная улица, 36'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -70,25 +69,16 @@ function init() {
 	});
 
 	var setka = new ymaps.Placemark([51.667529, 39.186812], {
-	    balloonContentHeader: `
-	    	<link rel="stylesheet" href="styles/map_style.css">
-	    	<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">SETKA BAR</span>`,
-	    balloonContentBody: `
-		    <div style="display: flex; justify-content: center; align-items: center">
-			    <p>
-				    
-				    <a href="https://vk.com/event161911454" target="_blank" style="
-					    ">Группа в VK</a>
-					
-					<br>
-					<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
-					<br>
-					<span style="font-size: 12pt">по четвергам в 20:00</span>
-				</p>
-			</div>`,
+	    balloonContentHeader: '<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 800">SETKA BAR</span>',
+	    balloonContentBody: `<p><a href="https://vk.com/event161911454" target="_blank" style="text-decoration: underline; color: #d61e1e; font-weight: 700; font-size: 12pt">Группа в VK</a>
+	    						<br>
+	    						<br>
+	    						<span style="font-size: 12pt">Открытый Микрофон</span>
+	    						<br>
+	    						<span style="font-size: 12pt">по четвергам в 20:00</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: 'Революции 1905 года, 31Г',
-	    hintContent: '<span style="font-weight: 600">SETKA BAR</span> - Революции 1905 года, 31Г'
+	    hintContent: 'SETKA BAR - Революции 1905 года, 31Г'
     }, {
 		preset: 'islands#redDotIcon'
 	});
