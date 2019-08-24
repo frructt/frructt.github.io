@@ -154,6 +154,7 @@ li a {
 
 #map {
 	width: 90%;
+	/*height: 80vh;*/
 }
 
 .map-container {
