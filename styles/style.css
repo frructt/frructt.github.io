@@ -12,7 +12,7 @@ body {
 }
 
 .header-container {
-	height: 25vh;
+	height: 15vw;
 	/*display: block;*/
 
 	background-color: black;
@@ -20,7 +20,14 @@ body {
 
 header h1 {
 	color: white;
-	font-size: 17vh;
+	font-size: 8vw;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header h2 {
+	color: white;
+	font-size: 5vw;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -81,7 +88,7 @@ li a {
 	color: #ffed28;
 	background-color: black;
 	border: 5px solid yellow;
-	
+
 }
 
 li a:hover {
@@ -147,7 +154,6 @@ li a {
 
 #map {
 	width: 90%;
-	height: 80vh;
 }
 
 .map-container {
