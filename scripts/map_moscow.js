@@ -344,6 +344,40 @@ function init() {
 		preset: 'islands#redDotIcon'
 	});
 
+	var smena = new ymaps.Placemark([55.741608, 37.659764], {
+	    balloonContentHeader: `<link rel="stylesheet" href="styles/map_style.css">
+	    						<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Смена 2.0</span>`,
+	    // balloonContentBody: '<p>Открытый микрофон по <span>понедельникам в 19:00</span></p>',
+	    balloonContentBody: `<p><a href="https://vk.com/moscowlowercomedy" target="_blank">Группа в VK</a>
+	    						
+	    						<br>
+	    						<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
+	    						<br>
+	    						<span style="font-size: 12pt">по четвергам в 20:00</span></p>`,
+	    balloonContentFooter: '',
+	    balloonContentFooter: `Товарищеский переулок, 4, стр. 5`,
+	    hintContent: `<span style="font-weight: 600">Смена 2.0</span> - Товарищеский переулок, 4, стр. 5`
+	}, {
+		preset: 'islands#redDotIcon'
+	});
+
+	var lila = new ymaps.Placemark([55.741349, 37.586004], {
+	    balloonContentHeader: `<link rel="stylesheet" href="styles/map_style.css">
+	    						<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Лиля Брик</span>`,
+	    // balloonContentBody: '<p>Открытый микрофон по <span>понедельникам в 19:00</span></p>',
+	    balloonContentBody: `<p><a href="https://vk.com/comedy_free" target="_blank">Группа в VK</a>
+	    						
+	    						<br>
+	    						<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
+	    						<br>
+	    						<span style="font-size: 12pt">по понедельникам в 20:00</span></p>`,
+	    balloonContentFooter: '',
+	    balloonContentFooter: `Большой Левшинский пер., 19 `,
+	    hintContent: `<span style="font-weight: 600">Лиля Брик</span> - Большой Левшинский пер., 19 `
+	}, {
+		preset: 'islands#redDotIcon'
+	});
+
 	openMic = new ymaps.GeoObjectCollection();
 
 	openMic
@@ -364,7 +398,9 @@ function init() {
 		.add(sausage)
 		.add(mint_phili)
 		.add(bbking)
-		.add(jim);
+		.add(jim)
+		.add(smena)
+		.add(lila);
 	var openMicLayout = ymaps.templateLayoutFactory.createClass(
 		'<div class="openMic-containter" >' +
 			'$[properties.balloonContentHeader]' +
