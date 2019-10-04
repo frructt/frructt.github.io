@@ -44,7 +44,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Театральная улица, 36`,
-	    hintContent: '<span style="font-weight: 600">Литера Б</span> - Театральная улица, 36'
+	    hintContent: '<span style="font-weight: 600">Литера Б</span> - по понедельникам в 19:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -88,7 +88,55 @@ function init() {
 			</div>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: 'Революции 1905 года, 31Г',
-	    hintContent: '<span style="font-weight: 600">SETKA BAR</span> - Революции 1905 года, 31Г'
+	    hintContent: '<span style="font-weight: 600">SETKA BAR</span> - по четвергам в 20:00'
+    }, {
+		preset: 'islands#redDotIcon'
+	});
+
+	var friendship = new ymaps.Placemark([51.663820, 39.195436], {
+	    balloonContentHeader: `
+	    	<link rel="stylesheet" href="styles/map_style.css">
+	    	<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Дружба</span>`,
+	    balloonContentBody: `
+		    <div style="display: flex; justify-content: center; align-items: center">
+			    <p>
+				    
+				    <a href="https://vk.com/standupvrn" target="_blank" style="
+					    ">Группа в VK</a>
+					
+					<br>
+					<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
+					<br>
+					<span style="font-size: 12pt">по четвергам в 19:00</span>
+				</p>
+			</div>`,
+	    balloonContentFooter: '',
+	    balloonContentFooter: 'Фридриха Энгельса, 60',
+	    hintContent: '<span style="font-weight: 600">Дружба</span> - по четвергам в 19:00'
+    }, {
+		preset: 'islands#redDotIcon'
+	});
+
+	var white_gen = new ymaps.Placemark([51.666361, 39.206211], {
+	    balloonContentHeader: `
+	    	<link rel="stylesheet" href="styles/map_style.css">
+	    	<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Белый Генерал</span>`,
+	    balloonContentBody: `
+		    <div style="display: flex; justify-content: center; align-items: center">
+			    <p>
+				    
+				    <a href="https://vk.com/standupbg" target="_blank" style="
+					    ">Группа в VK</a>
+					
+					<br>
+					<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
+					<br>
+					<span style="font-size: 12pt">по средам в 19:00</span>
+				</p>
+			</div>`,
+	    balloonContentFooter: '',
+	    balloonContentFooter: 'пр. Революции, 43, этаж Цокольный',
+	    hintContent: '<span style="font-weight: 600">Белый Генерал</span> - по средам в 19:00'
     }, {
 		preset: 'islands#redDotIcon'
 	});
@@ -100,7 +148,9 @@ function init() {
 		.add(litera)
 		// .add(bristol)
 		// .add(set_puaro)
-		.add(setka);
+		.add(setka)
+		.add(friendship)
+		.add(white_gen);
 	var openMicLayout = ymaps.templateLayoutFactory.createClass(
 		'<div class="openMic-containter">' +
 			'$[properties.balloonContentHeader]' +

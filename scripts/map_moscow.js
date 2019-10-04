@@ -59,7 +59,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Маросейка, 15`,
-	    hintContent: '<span style="font-weight: 600">Джон Донн</span> - Маросейка, 15'
+	    hintContent: '<span style="font-weight: 600">Джон Донн</span> - по четвергам в 20:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -68,7 +68,7 @@ function init() {
 	    balloonContentHeader: `<link rel="stylesheet" href="styles/map_style.css">
 	    						<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Алиби</span>`,
 	    // balloonContentBody: '<p>Открытый микрофон по <span>понедельникам в 19:00</span></p>',
-	    balloonContentBody: `<p><a href="https://vk.com/bigopenmic" target="_blank">Группа в VK</a>
+	    balloonContentBody: `<p><a href="https://vk.com/eveningmic" target="_blank">Группа в VK</a>
 	    						
 	    						<br>
 	    						<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
@@ -77,7 +77,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Ащеулов пер., 9, цокольный этаж`,
-	    hintContent: '<span style="font-weight: 600">Алиби</span> - Ащеулов пер., 9, цокольный этаж'
+	    hintContent: '<span style="font-weight: 600">Алиби</span> - по вторникам в 20:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -95,7 +95,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Петровка, 21, стр. 1`,
-	    hintContent: '<span style="font-weight: 600">Standup Store Moscow</span> - Петровка, 21, стр. 1'
+	    hintContent: '<span style="font-weight: 600">Standup Store Moscow</span> - по воскресеньям в 21:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -113,7 +113,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Валовая, 26, эт. 1`,
-	    hintContent: '<span style="font-weight: 600">Montis’ friends</span> - Валовая, 26, эт. 1'
+	    hintContent: '<span style="font-weight: 600">Montis’ friends</span> - по воскресеньям в 20:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -131,7 +131,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Покровка, 6`,
-	    hintContent: '<span style="font-weight: 600">Harat’s pub</span> - Покровка, 6'
+	    hintContent: '<span style="font-weight: 600">Harat’s pub</span> - по средам в 20:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -149,7 +149,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Болотная наб., 9, стр. 1`,
-	    hintContent: '<span style="font-weight: 600">Red Pub</span> - Болотная наб., 9, стр. 1'
+	    hintContent: '<span style="font-weight: 600">Red Pub</span> - по четвергам в 20:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -167,7 +167,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Октябрьская, 26, стр. 1, 1 этаж`,
-	    hintContent: '<span style="font-weight: 600">Достоевский</span> - Октябрьская, 26, стр. 1, 1 этаж'
+	    hintContent: '<span style="font-weight: 600">Достоевский</span> - по пятницам в 20:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -185,7 +185,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Сущёвский Вал, 41`,
-	    hintContent: '<span style="font-weight: 600">Beer Bear Bar</span> - Сущёвский Вал, 41'
+	    hintContent: '<span style="font-weight: 600">Beer Bear Bar</span> - по воскресеньям в 20:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -203,7 +203,7 @@ function init() {
 	    balloonContentFooter: '',
 	    balloonContentFooter: `
 	    						Новый Арбат, 13`,
-	    hintContent: '<span style="font-weight: 600">Rolling Barrels Craft</span> - Новый Арбат, 13'
+	    hintContent: '<span style="font-weight: 600">Rolling Barrels Craft</span> - по понедельникам в 20:00'
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -220,7 +220,7 @@ function init() {
 	    						<span style="font-size: 12pt">по воскресеньям в 20:00</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `Моховая, 11, стр. 3`,
-	    hintContent: `<span style="font-weight: 600">Дума</span> - Моховая, 11, стр. 3`
+	    hintContent: `<span style="font-weight: 600">Дума</span> - по воскресеньям в 20:00`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -237,7 +237,7 @@ function init() {
 	    						<span style="font-size: 12pt">по средам в 19:30</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `Ленинская Слобода, 26`,
-	    hintContent: `<span style="font-weight: 600">Друзья</span> - Ленинская Слобода, 26`
+	    hintContent: `<span style="font-weight: 600">Друзья</span> - по средам в 19:30`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -254,7 +254,7 @@ function init() {
 	    						<span style="font-size: 12pt">по четвергам в 20:00</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `Пятницкая, 6/1с1`,
-	    hintContent: `<span style="font-weight: 600">БарКонцерт</span> - Пятницкая, 6/1с1`
+	    hintContent: `<span style="font-weight: 600">БарКонцерт</span> - по четвергам в 20:00`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -271,7 +271,7 @@ function init() {
 	    						<span style="font-size: 12pt">по средам в 20:30</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `Большой Спасоглинищевский пер., 9/1с16А, эт. 3`,
-	    hintContent: `<span style="font-weight: 600">Мята Lounge</span> - Большой Спасоглинищевский пер., 9/1с16А, эт. 3`
+	    hintContent: `<span style="font-weight: 600">Мята Lounge</span> - по средам в 20:30`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -288,7 +288,7 @@ function init() {
 	    						<span style="font-size: 12pt">по четвергам в 20:30</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: ` Забелина, 1`,
-	    hintContent: `<span style="font-weight: 600">Колбаса</span> -  Забелина, 1`
+	    hintContent: `<span style="font-weight: 600">Колбаса</span> - по четвергам в 20:30`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -305,7 +305,7 @@ function init() {
 	    						<span style="font-size: 12pt">по субботам в 20:30</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `Багратионовский пр., 12`,
-	    hintContent: `<span style="font-weight: 600">Мята Lounge Фили</span> -  Багратионовский пр., 12`
+	    hintContent: `<span style="font-weight: 600">Мята Lounge Фили</span> -  по субботам в 20:30`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -322,7 +322,7 @@ function init() {
 	    						<span style="font-size: 12pt">по воскресеньям в 18:30</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `Садовая-Самотёчная, 4, стр. 2`,
-	    hintContent: `<span style="font-weight: 600">B. B. King</span> -  Садовая-Самотёчная, 4, стр. 2`
+	    hintContent: `<span style="font-weight: 600">B. B. King</span> -  по воскресеньям в 18:30`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -339,7 +339,7 @@ function init() {
 	    						<span style="font-size: 12pt">по средам в 21:30</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `Мясницкая, 38, стр. 1`,
-	    hintContent: `<span style="font-weight: 600">Jim 'n' Jack's</span> - Мясницкая, 38, стр. 1`
+	    hintContent: `<span style="font-weight: 600">Jim 'n' Jack's</span> - по средам в 21:30`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -356,7 +356,7 @@ function init() {
 	    						<span style="font-size: 12pt">по четвергам в 20:00</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `Товарищеский переулок, 4, стр. 5`,
-	    hintContent: `<span style="font-weight: 600">Смена 2.0</span> - Товарищеский переулок, 4, стр. 5`
+	    hintContent: `<span style="font-weight: 600">Смена 2.0</span> - по четвергам в 20:00`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -373,7 +373,41 @@ function init() {
 	    						<span style="font-size: 12pt">по понедельникам в 20:00</span></p>`,
 	    balloonContentFooter: '',
 	    balloonContentFooter: `Большой Левшинский пер., 19 `,
-	    hintContent: `<span style="font-weight: 600">Лиля Брик</span> - Большой Левшинский пер., 19 `
+	    hintContent: `<span style="font-weight: 600">Лиля Брик</span> - по понедельникам в 20:00`
+	}, {
+		preset: 'islands#redDotIcon'
+	});
+
+	var lila = new ymaps.Placemark([55.741349, 37.586004], {
+	    balloonContentHeader: `<link rel="stylesheet" href="styles/map_style.css">
+	    						<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Лиля Брик</span>`,
+	    // balloonContentBody: '<p>Открытый микрофон по <span>понедельникам в 19:00</span></p>',
+	    balloonContentBody: `<p><a href="https://vk.com/comedy_free" target="_blank">Группа в VK</a>
+	    						
+	    						<br>
+	    						<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
+	    						<br>
+	    						<span style="font-size: 12pt">по понедельникам в 20:00</span></p>`,
+	    balloonContentFooter: '',
+	    balloonContentFooter: `Большой Левшинский пер., 19 `,
+	    hintContent: `<span style="font-weight: 600">Лиля Брик</span> - по понедельникам в 20:00`
+	}, {
+		preset: 'islands#redDotIcon'
+	});
+
+	var nexus = new ymaps.Placemark([55.773170, 37.677643], {
+	    balloonContentHeader: `<link rel="stylesheet" href="styles/map_style.css">
+	    						<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Nexus Cyber<br>Lounge</span>`,
+	    // balloonContentBody: '<p>Открытый микрофон по <span>понедельникам в 19:00</span></p>',
+	    balloonContentBody: `<p><a href="https://vk.com/capitalstandup" target="_blank">Группа в VK</a>
+	    						
+	    						<br>
+	    						<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
+	    						<br>
+	    						<span style="font-size: 12pt">по четвергам в 20:00</span></p>`,
+	    balloonContentFooter: '',
+	    balloonContentFooter: `Спартаковская, 21`,
+	    hintContent: `<span style="font-weight: 600">Nexus Cyber Lounge</span> - по четвергам в 20:00`
 	}, {
 		preset: 'islands#redDotIcon'
 	});
@@ -382,7 +416,7 @@ function init() {
 
 	openMic
 		.add(suc1)
-		.add(djondonn)
+		// .add(djondonn)
 		.add(alibi)
 		.add(store)
 		.add(montis)
@@ -390,7 +424,7 @@ function init() {
 		.add(redpub)
 		.add(dost)
 		.add(bbbar)
-		.add(rolling_barrels)
+		// .add(rolling_barrels)
 		.add(duma)
 		// .add(friends)
 		.add(concert)
@@ -400,7 +434,8 @@ function init() {
 		.add(bbking)
 		.add(jim)
 		.add(smena)
-		.add(lila);
+		.add(lila)
+		.add(nexus);
 	var openMicLayout = ymaps.templateLayoutFactory.createClass(
 		'<div class="openMic-containter" >' +
 			'$[properties.balloonContentHeader]' +
