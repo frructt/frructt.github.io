@@ -412,6 +412,23 @@ function init() {
 		preset: 'islands#redDotIcon'
 	});
 
+	var atomic = new ymaps.Placemark([55.787955, 37.593364], {
+	    balloonContentHeader: `<link rel="stylesheet" href="styles/map_style.css">
+	    						<span style="color: black; font-size: 19pt; text-transform: uppercase; font-weight: 700">Атомная<br>прачечная</span>`,
+	    // balloonContentBody: '<p>Открытый микрофон по <span>понедельникам в 19:00</span></p>',
+	    balloonContentBody: `<p><a href="https://vk.com/please_standup" target="_blank">Группа в VK</a>
+	    						
+	    						<br>
+	    						<span style="font-size: 12pt; font-weight: 600">Открытый Микрофон</span>
+	    						<br>
+	    						<span style="font-size: 12pt">по средам в 20:00</span></p>`,
+	    balloonContentFooter: '',
+	    balloonContentFooter: `Новослободская 54, стр 1`,
+	    hintContent: `<span style="font-weight: 600">Атомная прачечная</span> - по средам в 20:00`
+	}, {
+		preset: 'islands#redDotIcon'
+	});
+
 	openMic = new ymaps.GeoObjectCollection();
 
 	openMic
@@ -433,9 +450,10 @@ function init() {
 		.add(mint_phili)
 		.add(bbking)
 		.add(jim)
-		.add(smena)
+		// .add(smena)
 		.add(lila)
-		.add(nexus);
+		.add(nexus)
+		.add(atomic);
 	var openMicLayout = ymaps.templateLayoutFactory.createClass(
 		'<div class="openMic-containter" >' +
 			'$[properties.balloonContentHeader]' +
