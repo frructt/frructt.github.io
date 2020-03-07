@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ComedyMap</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap&subset=cyrillic" rel="stylesheet"> 
+
+	<script src="https://unpkg.com/vue"></script>
+	<!-- <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script> -->
+
+	<!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=51d0a5d8-72d1-47cd-89d4-c74a52b0f789&lang=ru_RU" type="text/javascript"> -->
+    </script>
+</head>
+<body>
+
+	<header>
+
+		<div class="header-container">
+			
+			<h1>Comedymap</h1>
+
+		</div>
+
+		<div class="select-container">
+			<div id="app">
+				<nav>
+					<transition name="fade" mode="out-in">
+						<p class="menu" v-if="!show" @click="show = !show" key = "menu">Москва</p>
+						<p class="clear" v-else @click="show = !show" key="clear">Москва</p>
+					</transition>
+					<transition name="fade">
+						<ul v-if="show">
+							<!-- <li class="current"><a href="index.html">Воронеж</a></li> -->
+							<li><a href="index.html">Воронеж</a></li>
+							<hr width="80%" align="center" color="#22200c">
+							<li><a href="moscow.html">Москва</a></li>
+						</ul>
+					</transition>
+				</nav>
+			</div>
+			<!-- <div class="current">
+				<a href="index.html">Воронеж</a>
+			</div>
+			<a href="moscow.html">Москва</a>
+			<a href="spb.html">Питер</a> -->
+		</div>
+
+		<h2 style="color: white">Скоро добавим Питер</h2>
+	</header>
+	
+	<footer>
+		<p>
+			За развитием проекта и можно следить тут:
+		</p>
+
+		<div class="but_telega">
+			<a href="tg://resolve?domain=comedy_map" target="_blank">t.me/comedy_map</a>
+		</div>
+	</footer>
+
+	<script src="scripts/script.js"></script>
+	<script src="scripts/map_moscow.js"></script>
+
+</body>
+</html>
