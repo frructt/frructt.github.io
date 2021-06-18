@@ -1,0 +1,333 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;	
+}
+/*
+._main_container {
+
+}
+
+.overlay {
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	background-color: black;
+	font-size: 15pt;
+	font-family: 'Open Sans', sans-serif;	
+	font-weight: 100;
+	padding: 0 40px;
+}
+
+.overlay a:hover {
+	color: rgb(42, 183, 27);
+}*/
+
+
+/**/
+
+/*
+.menu-container {
+	background-color: white;
+}
+
+.menu-container {
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-container .logo{
+	padding-right: 3%;
+}
+
+.block {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+
+.block > a {
+	display: block;
+	height: 100%;
+	padding-top: 10px;
+	margin: 0 10px;*/
+    /*line-height: 100%;*/
+/*	padding-bottom: 0 10px;
+	text-decoration: none;
+	color: black;
+	font-size: 16pt;
+	color: black;
+	font-family: 'Open-Sans', sans-serif;*/
+	/*align-items: center;*/
+/*	
+	text-align: center;
+	font-weight: 600;*/
+
+	                /*далее переход*/
+/*    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;*/
+                /*конец перехода*/
+/*}
+
+
+.block > a:hover {
+	background-color: rgb(42, 183, 27);
+	color: white;
+
+}
+*/
+/**/
+
+.slider {
+	position: relative;
+	width: 100%;
+	height: 534px;
+	background-color: black;
+}
+
+.SlideCen {
+	display: block;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/**/
+
+
+.menu {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15pt;
+}
+
+.menu_white {
+	display: flex;
+	justify-content: space-around;
+	font-weight: 600;
+	margin-left: 30%;
+	margin-right: 40%;
+}
+
+.menu_white .classic_sushi, .hard_baked {
+	display: flex;
+	flex-direction: column;
+}
+
+.menu_white .set_pizza {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.menu_white .classic_sushi .classic, .classic_sushi .sushi, .hard_baked .hard,  .hard_baked .baked{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+ .set, .pizza {
+ 	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 6%;
+ }
+
+.menu_white a {
+	padding-left: 30px;
+}
+
+.menu_white a, .menu_green a {
+	color: black;
+	text-decoration: none;
+}
+
+.menu_green a {
+	color: white;	
+}
+
+.menu_green .warm, .snack {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.snack {
+	padding-left: 10%;
+}
+
+.menu_green {
+	height: 150px;
+	background-color: rgb(42, 183, 27);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+
+}
+
+/**/
+
+.describe-container {
+	height: 500px;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.describe-container .describe {
+	width: 600px;
+	margin-right: 5%;
+}
+
+.describe-container .describe h2 {
+	font-weight: 800;
+	font-size: 36pt;
+}
+
+.describe-container .describe p {
+	font-weight: 400;
+	font-size: 15pt;
+}
+
+.describe-container .vk-vidget {
+	background-color: blue;
+	width: 80px;
+	height: 300px;
+	padding-left: 150px;
+}
+
+/**/
+
+.prefooter .RP_describe {
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+	color: white;
+	height: 650px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10%;
+}
+
+.goodRoll {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.goodPizza {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+.goodRoll .GR_describe, .goodPizza .GP_describe {
+	padding: 0 8%;
+}
+
+.prefooter .goodRoll h3, .goodPizza h3 {
+	font-weight: 900;
+	font-size: 23pt;
+}
+
+.prefooter .goodRoll p, .goodPizza p {
+	font-weight: 400;
+	font-size: 14pt;
+}
+
+.prefooter .goodRoll a, .prefooter .goodPizza a {
+	color: rgb(244, 126, 0);
+	text-decoration: none;
+}
+
+.prefooter .goodRoll a:hover, .prefooter .goodPizza a:hover {
+	font-weight: 700;
+}
+
+/**/
+
+footer {
+	background-color: black;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.vk-link {
+	padding-top: 5%;
+}
+
+.vk-link a {
+	position: relative;
+	left: 50%;
+}
+
+.footer-container {
+	display: flex;
+	padding-top: 5%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.block1, .block2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.block1 a, .block2, a {
+	font-weight: 600;
+	text-decoration: none;		
+	color: 	white;
+}
+
+.block1 a:hover {
+	color: rgb(42, 183, 27);
+}
+
+.block2 a:hover {
+	color: rgb(244, 126, 0);
+}
+
+.phone_time {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.phone_time a:hover {
+	color: rgb(42, 183, 27);
+}
+
+.politics p {
+	display: block;
+	padding-left: 10%;
+	padding-bottom: 3%;
+	width: 80%;
+	font-size: 10pt;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.3);
+	text-align: center;
+}

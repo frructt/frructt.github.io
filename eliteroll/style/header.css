@@ -1,0 +1,109 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+._main_container {
+
+}
+
+.overlay {
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	background-color: black;
+
+	font-size: 13pt;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding: 0 40px;
+}
+
+.overlay a {
+	color: white;
+	text-decoration: none;	
+}
+
+.overlay a:hover {
+	color: rgb(42, 183, 27);
+}
+
+
+/**/
+
+
+.menu-container {
+	background-color: white;
+}
+
+.menu-container {
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-container .logo{
+	padding-right: 3%;
+}
+
+.block {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/*height: 50px;*/
+}
+
+.Menu, .About, .Sales, .Delivery, .Contacts {
+	width: 110px;
+	height: 100px;
+
+}
+
+.Menu a, .About a, .Sales a, .Delivery a, .Contacts > a {
+	display: block;
+	height: 67%;
+	padding-top: 30%;
+	/*margin: 0 10px;*/
+    /*line-height: 100%;*/
+	/*padding-bottom: 0 10px;*/
+	text-decoration: none;
+	color: black;
+	font-size: 16pt;
+	color: black;
+	font-family: 'Open-Sans', sans-serif;
+	/*align-items: center;*/
+	
+	text-align: center;
+	font-weight: 600;
+
+	                /*далее переход*/
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+                /*конец перехода*/
+}
+
+
+.Menu a:hover, .About a:hover, .Sales a:hover, .Delivery a:hover, .Contacts > a:hover {
+	background-color: rgb(42, 183, 27);
+	color: white;
+
+}
+
+/*.block .Menu {
+	color: white;
+	background-color: rgb(42, 183, 27);
+}*/

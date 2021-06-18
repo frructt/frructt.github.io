@@ -1,0 +1,134 @@
+/*
+	
+		*/
+
+
+.menu-container .block .Menu {
+	background-color: rgb(42, 183, 27);
+}
+
+.menu-container .block .Menu a {
+	color: white;
+}
+
+.sub-menu-container {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.sub-menu-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.sushi, .pizza, ._classic, .baked, .hard, .warm, .set, .snack  {
+	width: 120px;
+	height: 120px;
+
+}
+
+
+.sub-menu {
+	display: flex;
+	flex-direction: row;
+}
+
+.sushi a, .pizza a, ._classic a, .baked a, .hard a, .warm a, .set a, .snack a {
+	display: block;	
+	height: 70%;
+	padding-top: 30%;
+	text-decoration: none;
+	font-size: 12pt;
+	color: white;
+	font-family: 'Open-Sans', sans-serif;
+	
+	text-align: center;
+	font-weight: 600;
+
+	                /*далее переход*/
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+                /*конец перехода*/
+}
+
+
+.sushi a:hover, .pizza a:hover, ._classic a:hover, .baked a:hover, .hard a:hover, .warm a:hover, .set a:hover, .snack a:hover {
+	/*background-color: rgb(42, 183, 27);*/
+	background-color: rgb(244, 126, 0);
+} 
+
+._classic {
+	background-color: rgb(244, 126, 0);
+}
+
+/*
+	*/
+
+section {
+	font-family: 'Montserrat', sans-serif;
+/*	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;*/
+}
+
+.row-container, .row2-container, .row3-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+	padding-top: 5%;
+}
+
+.row2-container {
+	/*padding-top: 23%;*/
+}
+
+.position {
+	position: relative;
+	/*width: 150px;*/
+	/*height: 250px;*/
+}
+
+.position a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.position a:hover {
+	color: rgb(42, 183, 27);
+}
+
+.position a img {
+	border-radius: 100px;
+}
+
+p {
+	font-size: 14pt;
+	width: 200px;
+}
+
+h4 {
+	font-size: 18pt;
+}
+
+h3 {
+	font-size: 33pt;
+}
+
+em {
+	font-size: 13pt;
+	font-weight: 300;
+}
